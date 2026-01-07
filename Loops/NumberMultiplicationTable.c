@@ -4,19 +4,35 @@
 
 int main()
 {
-	long long number;
+	//Initializing
+	int n;
 	
-	printf("Enter Stopping Number: ");
-	scanf("%1lld", &number);
 	
-	for(long long i=1; i<=number; i++)
+	//Input
+	printf("Enter A Number: ");
+	scanf("%d",&n);
+	
+	printf("Multiplication Table Upto %d\n\n", n);
+	
+	//Looping to print a format
+	for (int j = 1; j <= 10; j++) 
 	{
-		for(long long j=1 ; j<=number; j++)
-		{
-			printf("%8lld", i*j);
-		}
-		printf("\n");
-	}
+        printf("%5d", j);
+    }
+    
+    printf("\n--------------------------------------------------------------\n");
 	
+	//looping to print the chart
+	for(int i=1 ; i <=n ; i++)
+	{
+		printf("%d |", i);
+		for(int j=1 ; j<=10 ; j++)
+		{
+			printf("%5d",i*j);
+		}	
+		
+		printf("\n");
+	}	
+
 	return 0;
 }
