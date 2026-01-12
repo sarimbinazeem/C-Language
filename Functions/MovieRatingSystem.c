@@ -1,3 +1,8 @@
+// Write a C program that reviews movie ratings using arrays and functions. The program should accept ratings (from 1 to 10) for a fixed number of movies, ensuring proper input validation. For each movie, calculate the average rating (based on the given input) and classify it into a category such as Excellent, Good, Average, or Poor according to the rating value.
+
+// Finally, display a summary table showing each movie number, its rating, and the corresponding review category. The program should demonstrate the use of arrays, functions, conditional statements, and formatted output.
+
+
 #include <stdio.h>
 #define MOVIES 5
 
