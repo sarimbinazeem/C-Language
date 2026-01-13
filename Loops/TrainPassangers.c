@@ -1,4 +1,4 @@
-//Task 9 – Train Ticket Checker
+//Write a C program that acts as a Train Ticket Checker to monitor the number of passengers traveling in different train compartments. The program should first ask the user to enter the total number of compartments in the train. Then, using a loop, it should take the number of passengers in each compartment, ensuring that the input is valid (between 0 and 10 passengers per compartment). If a compartment has zero passengers, the program should display a message indicating that the compartment is empty; otherwise, it should display the number of passengers present in that compartment. Finally, after checking all compartments, the program should calculate and display the total number of passengers traveling on the train.
 
 #include <stdio.h>
 
