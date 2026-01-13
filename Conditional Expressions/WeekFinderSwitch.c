@@ -1,5 +1,4 @@
-// PF THEORY ASSIGNMENT
-// Sarim Bin Azeem 25K-0574
+//Take input of day number and with switch cases print the respective week. Also handle error.
 
 #include <stdio.h>
 
