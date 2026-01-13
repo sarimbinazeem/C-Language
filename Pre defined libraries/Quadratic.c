@@ -1,3 +1,5 @@
+//Write a C program that finds the real roots of a quadratic equation of the form ax² + bx + c = 0. The program should prompt the user to enter the values of the coefficients a, b, and c, and then calculate the discriminant using the formula (b² − 4ac). If the discriminant is positive and the value of a is not zero, the program should compute and display the two real roots of the equation using the quadratic formula. If the discriminant is zero or negative, or if the value of a is zero, the program should display an appropriate message indicating that it is impossible to find real roots. The program must use functions from the standard math library where required and display the results clearly.
+
 #include <stdio.h>
 #include <math.h>    
 // Include math.h header file for mathematical functions
