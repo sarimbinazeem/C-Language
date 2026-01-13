@@ -1,4 +1,4 @@
-// PICNIC TICKETS
+// Write a C program that calculates picnic ticket charges based on the category of the person purchasing the tickets. The program should first ask the user to specify their category as Staff, Faculty, or Student. Based on the selected category, the program should then prompt the user to enter the number of tickets required and apply the appropriate pricing rules. Faculty members should receive up to three tickets free of cost, with any additional tickets charged at a fixed rate per ticket. Staff members should receive up to two free tickets, while extra tickets should incur a higher per-ticket cost. Students should be charged a fixed price for the first ticket, with a different rate applied to each additional ticket. The program must calculate and display the total cost accordingly, grant tickets when applicable, and handle invalid inputs or categories by displaying suitable error messages.
 
 #include <stdio.h>
 
