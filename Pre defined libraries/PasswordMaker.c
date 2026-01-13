@@ -35,7 +35,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <string.h> //Miss Javaria Allowed For STRLEN
+#include <string.h> 
 #define LENGTH 100
 
 void userDetails(char name[], char gender[], char contact[]) ;
