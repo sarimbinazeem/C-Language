@@ -1,3 +1,6 @@
+//A growing company needs a system to generate unique usernames for its employees. Each username is created by taking the first few letters of the employee’s first and last names. If a username has already been assigned to someone else, the system should automatically append a number to make it unique. The HR team wants to be able to enter multiple employees one after another and, at the end, see a list of all generated usernames for record-keeping.
+
+// Write a program that simulates this username generation process, ensuring all usernames are unique and formatted consistently.
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
