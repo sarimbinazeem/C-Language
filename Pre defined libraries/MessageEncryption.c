@@ -1,3 +1,15 @@
+// Task – Simple Message Encryptor (Scenario Question)
+
+// A small tech company is experimenting with a basic message encryption tool for internal communication. The tool is designed to make messages slightly harder to read at a glance:
+
+// It shifts all vowels in a message to the next letter in the alphabet.
+
+// It then reverses the order of words in the sentence to further obscure the content.
+
+// The system should also provide a quick summary of the message, including the number of characters before and after encryption.
+
+// Write a program that reads a message from the user, performs this encryption, and displays the encrypted sentence along with the character counts.
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
